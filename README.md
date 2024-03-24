@@ -12,7 +12,7 @@ The Magic In Every Pixel Adobe Add-On offers a seamless experience for users to 
 
 5. Save and Share: Once you're satisfied with the result, save your enchanted image and share it with friends, family, or on social media to showcase your creativity.
 
-Our Magic In Every Pixel Adobe Add-On combines the power of HTML, CSS, and JavaScript to provide a magical and user-friendly experience for transforming your images.
+Our Magic In Every Pixel Adobe Add-On combines the power of HTML, Adobe Embed Express SDK APIs, CSS, and JavaScript to provide a magical and user-friendly experience for transforming your images.
 
 # Further Expansion
 
@@ -25,3 +25,7 @@ To further enhance our Enchanted Image Filter Adobe Add-On, we can consider the 
 3. Personalization Features: Provide users with the ability to personalize their experience by saving their favorite backgrounds, creating custom categories, or even uploading their own background images to the database for future use.
 
 4. Collaboration Tools: Introduce collaboration features that allow users to share their edited images with others, collaborate on projects, and provide feedback on each other's work. This can create a community around the add-on and encourage creativity and collaboration among users.
+
+# Challenges We Faced
+
+Initially, we aimed to create a filter that would use AI to detect facial features for tracking, allowing the user to apply filters dynamically based on the detected features. However, we soon realized that this scope was too large. As a result, we decided to pivot our approach and focus on creating a more achievable and user-friendly filter that still provided an enchanting experience for our users and implemented a few of our desired features. 
