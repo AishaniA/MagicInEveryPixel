@@ -14,7 +14,8 @@ The Magic In Every Pixel Adobe Add-On offers a seamless experience for users to 
 
 Our Magic In Every Pixel Adobe Add-On combines the power of HTML, CSS, and JavaScript to provide a magical and user-friendly experience for transforming your images.
 
-#Further Expansion
+# Further Expansion
+
 To further enhance our Enchanted Image Filter Adobe Add-On, we can consider the following expansion:
 
 1. Database Integration: Incorporate a database to store a larger selection of background images. This database can be used to efficiently manage and retrieve images based on user preferences.
