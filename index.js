@@ -1,5 +1,7 @@
 import AddOnSdk from "https://new.express.adobe.com/static/add-on-sdk/sdk.js";
 
+
+
 const IMAGES = new Map([
     ["enchantedforest.jpg", "./images/enchantedforest.jpg"],
     ["fairytaleforest.png", "./images/fairytaleforest.png"],
@@ -45,16 +47,12 @@ AddOnSdk.ready.then(async () => {
 });
 
 /**
- * Add image to the document.
+ *   adds image to the document
  */
 async function addToDocument(event) {
     const url = event.currentTarget.src;
     const blob = await getBlob(url);
     AddOnSdk.app.document.addImage(blob);
-    // Initialize the SDK first
-    const { quickAction } = await ccEverywhere.initialize(); 
-    quickAction.convertToJPEG(docConfig, appConfig, exportConfig, containerConfig); 
-
 }
 
 /**
